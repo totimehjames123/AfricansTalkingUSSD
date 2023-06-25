@@ -1,0 +1,61 @@
+Requirement already satisfied: pip in c:\users\dell\appdata\roaming\pypoetry\venv\lib\site-packages (22.3.1)
+
+Collecting pip
+
+  Downloading pip-23.1.2-py3-none-any.whl (2.1 MB)
+
+     ---------------------------------------- 2.1/2.1 MB 564.3 kB/s eta 0:00:00
+
+Installing collected packages: pip
+
+  Attempting uninstall: pip
+
+    Found existing installation: pip 22.3.1
+
+    Uninstalling pip-22.3.1:
+
+      Successfully uninstalled pip-22.3.1
+
+  WARNING: Failed to write executable - trying to use .deleteme logic
+
+  Rolling back uninstall of pip
+
+  Moving to c:\users\dell\appdata\roaming\pypoetry\venv\lib\site-packages\pip-22.3.1.dist-info\
+
+   from C:\Users\DELL\AppData\Roaming\pypoetry\venv\Lib\site-packages\~ip-22.3.1.dist-info
+
+  Moving to c:\users\dell\appdata\roaming\pypoetry\venv\lib\site-packages\pip\
+
+   from C:\Users\DELL\AppData\Roaming\pypoetry\venv\Lib\site-packages\~ip
+
+  Moving to c:\users\dell\appdata\roaming\pypoetry\venv\scripts\pip.exe
+
+   from C:\Users\DELL\AppData\Local\Temp\pip-uninstall-lpyt0xvp\pip.exe
+
+  Moving to c:\users\dell\appdata\roaming\pypoetry\venv\scripts\pip3.11.exe
+
+   from C:\Users\DELL\AppData\Local\Temp\pip-uninstall-lpyt0xvp\pip3.11.exe
+
+  Moving to c:\users\dell\appdata\roaming\pypoetry\venv\scripts\pip3.exe
+
+   from C:\Users\DELL\AppData\Local\Temp\pip-uninstall-lpyt0xvp\pip3.exe
+
+ERROR: Could not install packages due to an OSError: [Errno 28] No space left on device
+
+
+
+
+Traceback:
+
+  File "<stdin>", line 923, in main
+  File "<stdin>", line 560, in run
+  File "<stdin>", line 581, in install
+  File "C:\Python311\Lib\contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "<stdin>", line 653, in make_env
+  File "<stdin>", line 639, in make_env
+  File "<stdin>", line 352, in make
+  File "<stdin>", line 375, in pip
+  File "<stdin>", line 372, in python
+  File "<stdin>", line 365, in run

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "volpay"
+version = "0.1.0"
+description = ""
+authors = ["gamernewone <37631123+gamernewone@users.noreply.github.com >"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+africastalking = "^1.2.5"
+python-dotenv = "^1.0.0"
+flask = {extras = ["async"], version = "^2.3.2"}
+pymongo = "^4.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
